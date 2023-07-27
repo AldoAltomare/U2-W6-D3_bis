@@ -1,0 +1,34 @@
+$rosso: rgb(125, 17, 17);
+$blu: rgb(3, 3, 69);
+$flex: 1 1 100px;
+$colori: red, blue, green, grey;
+
+$theme:(
+    primary: rgb(12 120 200),
+    secondary: rgb(195 229 255),
+);
+
+
+h1{
+    color: $rosso;
+    background-color: aliceblue;
+}
+
+h3{
+    color: $blu;
+    background-color: aliceblue;
+}
+
+div.grande{
+    width: 50%;
+    aspect-ratio: 1/1;
+    background-color: green;
+}
+
+div.piccolo{
+    width: calc(100% - 50px);
+    aspect-ratio: 1/1;
+    background-color: rebeccapurple;
+}
+
+// in scss si può evitare calc() se l'operazione è tra due numeri con unità di misura identiche
