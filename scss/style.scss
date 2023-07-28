@@ -1,13 +1,5 @@
-$rosso: rgb(125, 17, 17);
-$blu: rgb(3, 3, 69);
-$flex: 1 1 100px;
-$colori: red, blue, green, grey;
-
-$theme:(
-    primary: rgb(12 120 200),
-    secondary: rgb(195 229 255),
-);
-
+@import "partials/buttons";
+@import "partials/variables";
 
 h1{
     color: $rosso;
@@ -20,7 +12,7 @@ h3{
 }
 
 div.grande{
-    width: 50%;
+    width: 300px;
     aspect-ratio: 1/1;
     background-color: green;
 }
